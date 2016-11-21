@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+ResizeImage.h
 //  WXChat
 //
 //  Created by zsm on 14-12-5.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIImage (ResizeImage)
 
++ (UIImage *)resizeImage:(NSString *)imageName;
 
 @end
-
