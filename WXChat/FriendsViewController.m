@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"好友列表";
-    
+        NSLog(@"在我的电脑上");
     // 1.初始化数据
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Friends" ofType:@"plist"];
     NSArray *array = [[NSArray alloc] initWithContentsOfFile:path];
